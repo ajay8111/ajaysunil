@@ -23,19 +23,19 @@ const projects = [
   {
     title: 'Parallax Web Design',
     description: 'A brief description of Parallax Web Design',
-    link: 'https://github.com/ajay8111/parallax_web',
+    link: 'https://ajay8111.github.io/parallax_web/',
     image: require('../assets/parallax.png'), // Add your image here
   },
   {
     title: 'QR Code Generator',
     description: 'Generate Anything Into A QR Code',
-    link: 'https://github.com/ajay8111/QR_code_genrator_website',
+    link: 'https://ajay8111.github.io/QR_code_genrator_website/',
     image: require('../assets/QR.png'), // Add your image here
   },
   {
     title: 'Login Form',
     description: 'Cartoon Style Login Form Design',
-    link: 'https://github.com/ajay8111/login',
+    link: 'https://ajay8111.github.io/login/',
     image: require('../assets/login.png'), // Add your image here
   },
 ];
@@ -43,7 +43,7 @@ const projects = [
 const Works = () => {
   return (
     <section className="works">
-      <h2>My Works</h2>
+      <h2>Works</h2>
       <div className="projects">
         {projects.map((project, index) => (
           <div key={index} className="project-card">
@@ -51,7 +51,7 @@ const Works = () => {
             <h3 className="project-title">{project.title}</h3>
             <p className="project-description">{project.description}</p>
             <a href={project.link} className="project-link" target="_blank" rel="noopener noreferrer">
-              View on GitHub
+              View On Github
             </a>
           </div>
         ))}

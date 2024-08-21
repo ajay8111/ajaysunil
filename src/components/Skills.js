@@ -9,7 +9,7 @@ import mongo from '../assets/mongo.png';
 const Skills = () => {
   return (
     <section className="skills-section">
-      <h2>My Skills</h2>
+      <h2>Skills</h2>
       <div className="skills-list">
         <div className="skill">
           <img src={pythonIcon} alt="Python" className="skill-icon" />
