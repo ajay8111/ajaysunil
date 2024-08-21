@@ -1,26 +1,38 @@
-section {
-    padding: 40px;
-    background-color: #f4f4f4; /* Light background color for contrast */
-    border-radius: 10px; /* Rounds the corners of the section */
-     /* Limits the width of the section */
-    margin: 20px auto; /* Centers the section horizontally */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  }
-  
-  h2 {
-    font-size: 2.5em;
-    color: #333; /* Dark color for the heading */
-    margin-bottom: 20px; /* Space below the heading */
-    font-family: 'Arial', sans-serif; /* Clean font */
-  }
-  
-  p {
-    font-size: 1.1em;
-    line-height: 1.6; /* Increases readability */
-    color: #555; /* Slightly lighter color for the text */
-    font-family: 'Arial', sans-serif; /* Consistent font */
-  }
-  .resume-button {
+.about-section {
+  padding: 40px;
+  background-color: #f4f4f4; /* Light background color for contrast */
+  border-radius: 10px; /* Rounds the corners of the section */
+  margin: 20px auto; /* Centers the section horizontally */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 800px; /* Limits the width of the section */
+  text-align: center; /* Center-align text and image */
+}
+
+h2 {
+  font-size: 2.5em;
+  color: #333; /* Dark color for the heading */
+  margin-bottom: 20px; /* Space below the heading */
+  font-family: 'Arial', sans-serif; /* Clean font */
+}
+
+.profile-photo {
+  width: 250px; /* Set a reasonable size for the profile photo */
+  height: 250px; /* Maintain a square aspect ratio */
+  border-radius: 50%; /* Make the image circular */
+  object-fit: cover; /* Ensure the image covers the area */
+  margin-bottom: 20px; /* Space below the image */
+  border: 3px solid #007bff; /* Add a border to match the button */
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.6; /* Increases readability */
+  color: #555; /* Slightly lighter color for the text */
+  font-family: 'Arial', sans-serif; /* Consistent font */
+  margin-bottom: 20px;
+}
+
+.resume-button {
   background-color: #007bff; /* Primary color */
   color: #ffffff; /* Text color */
   border: 1px solid #007bff; /* Border color to match the background */
@@ -52,5 +64,3 @@ section {
   border-color: #004085; /* Match border color with background on click */
   box-shadow: 0 4px 8px rgba(0, 123, 255, 0.4); /* Maintain subtle glow effect on click */
 }
-
-  

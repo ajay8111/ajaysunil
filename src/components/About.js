@@ -1,11 +1,13 @@
 import React from 'react';
 import './About.css';
-import resume from '../assets/ajays_resume_.pdf'; // Adjust the path if necessary
+import resume from '../assets/ajays_resume_.pdf';
+import AjayPhoto from '../assets/AjayPhoto.jpg'; // Adjust the path if necessary
 
 const About = () => {
   return (
-    <section>
+    <section className="about-section">
       <h2>About Me</h2>
+      <img src={AjayPhoto} alt="Ajay Sunil" className="profile-photo" />
       <p>
         I am a passionate Fullstack Developer with a strong foundation in Python, Flutter, React.js, and MongoDB.
         With experience across both frontend and backend development, I specialize in building scalable web and mobile applications.
