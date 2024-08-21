@@ -1,0 +1,77 @@
+/* Base styles for the Skills section */
+
+.skills-section h2 {
+    font-size: 2.5em;
+    color: #333; /* Dark color for the heading */
+    margin-bottom: 30px; /* Space below the heading */
+    font-family: 'Arial', sans-serif; /* Clean font */
+    text-align: center; /* Center the heading */
+}
+
+.skill-icon {
+    width: 64px; /* Set width for image */
+    height: 64px; /* Set height for image */
+    object-fit: contain; /* Ensure the image fits within the bounds */
+    margin-bottom: 10px; /* Space between icon and text */
+}
+
+/* Other existing styles remain unchanged */
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align items */
+    gap: 20px; /* Space between items */
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f9f9f9; /* Light background for each skill */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside each skill */
+    width: 150px; /* Fixed width for each skill item */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: box-shadow 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+}
+
+.skill:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.skill-icon {
+    font-size: 3em; /* Adjust size as needed */
+    color: #007bff; /* Primary color */
+    margin-bottom: 10px; /* Space between icon and text */
+}
+
+.skill p {
+    font-size: 1.2em; /* Font size for skill names */
+    color: #333; /* Dark text color */
+    margin: 0; /* Remove default margin */
+}
+
+/* Media queries for larger screens */
+@media (min-width: 768px) {
+    .skill {
+        width: 180px; /* Larger width for tablets and small desktops */
+    }
+
+    .skills-section h2 {
+        font-size: 2.5em; /* Larger heading font size */
+    }
+}
+
+@media (min-width: 1200px) {
+    .skill {
+        width: 220px; /* Larger width for large desktops */
+    }
+
+    .skills-section h2 {
+        font-size: 2.5em; /* Even larger heading font size */
+    }
+}

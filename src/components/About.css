@@ -1,0 +1,56 @@
+section {
+    padding: 40px;
+    background-color: #f4f4f4; /* Light background color for contrast */
+    border-radius: 10px; /* Rounds the corners of the section */
+     /* Limits the width of the section */
+    margin: 20px auto; /* Centers the section horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  h2 {
+    font-size: 2.5em;
+    color: #333; /* Dark color for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    font-family: 'Arial', sans-serif; /* Clean font */
+  }
+  
+  p {
+    font-size: 1.1em;
+    line-height: 1.6; /* Increases readability */
+    color: #555; /* Slightly lighter color for the text */
+    font-family: 'Arial', sans-serif; /* Consistent font */
+  }
+  .resume-button {
+  background-color: #007bff; /* Primary color */
+  color: #ffffff; /* Text color */
+  border: 1px solid #007bff; /* Border color to match the background */
+  padding: 12px 24px; /* Adequate padding */
+  font-size: 16px; /* Font size */
+  font-weight: 500; /* Font weight for better readability */
+  text-align: center; /* Center align text */
+  text-decoration: none; /* Remove underline from links */
+  border-radius: 12px; /* More rounded corners */
+  transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s; /* Smooth transition effect */
+  cursor: pointer; /* Pointer cursor on hover */
+  display: inline-block; /* Aligns button with surrounding text */
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.4); /* Add a subtle glow effect */
+}
+
+.resume-button:hover {
+  background-color: #0056b3; /* Darker background on hover */
+  border-color: #0056b3; /* Match border color with background on hover */
+  box-shadow: 0 6px 12px rgba(0, 123, 255, 0.6); /* Glow effect on hover */
+}
+
+.resume-button:focus {
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 0 3px rgba(38, 143, 255, 0.5); /* Add focus outline */
+}
+
+.resume-button:active {
+  background-color: #004085; /* Even darker background on click */
+  border-color: #004085; /* Match border color with background on click */
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.4); /* Maintain subtle glow effect on click */
+}
+
+  

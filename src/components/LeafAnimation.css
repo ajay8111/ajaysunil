@@ -1,0 +1,32 @@
+/* Container for the falling leaves animation */
+.leaf-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 100; /* Allows clicks to pass through */
+  }
+  
+  /* Animation for individual leaves */
+  .leaf {
+    position: absolute;
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+    opacity: 0.8;
+    animation: fall linear infinite;
+    pointer-events: none;
+  }
+  
+  /* Keyframes for falling leaves animation */
+  @keyframes fall {
+    0% {
+      transform: translateY(-100px) rotate(0deg); /* Adjusted for a smaller start */
+    }
+    100% {
+      transform: translateY(100vh) rotate(360deg);
+    }
+  }
+  

@@ -1,0 +1,78 @@
+.works {
+    padding: 40px;
+    background-color: #f9f9f9; /* Light background color */
+  }
+  
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 20px; /* Space between tiles */
+  }
+  
+  .project-card {
+    background: #ffffff; /* White background for each card */
+    border: 1px solid #e1e4e8; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    transition: box-shadow 0.3s, transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Pushes content to top and bottom */
+    height: 300px; /* Fixed height for consistent tile sizes */
+    overflow: hidden; /* Hide overflow for image */
+    align-items: center; /* Center-align contents */
+  }
+  
+  .project-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
+    transform: translateY(-5px); /* Slight lift effect */
+  }
+  
+  .project-image {
+    width: 150px; /* Fixed width for the circle */
+    height: 150px; /* Fixed height for the circle */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Cover the area without distorting */
+    margin-bottom: 15px; /* Space below the image */
+    border: 2px solid #e1e4e8; /* Optional border to match card border */
+  }
+  
+  .project-title {
+    font-size: 1.25em;
+    margin: 0;
+    color: #0366d6; /* Link color */
+  }
+  
+  .project-description {
+    font-size: 1em;
+    color: #586069; /* Text color */
+    margin: 10px 0;
+    flex-grow: 1; /* Allows description to grow */
+  }
+  
+  .project-link {
+    display: inline-block;
+    font-size: 1em;
+    color: #ffffff; /* White text color */
+    background-color: #007bff; /* Button color */
+    text-decoration: none;
+    border: 2px solid #007bff; /* Border color matching the background */
+    border-radius: 20px; /* Rounded corners for the button */
+    padding: 10px; /* Padding inside the button */
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s; /* Smooth transition for effects */
+    text-align: center; /* Center-align text */
+    font-weight: bold; /* Bold text */
+  }
+  
+  .project-link:hover {
+    background-color: #024d8b; /* Darker background color on hover */
+    border-color: #024d8b; /* Match border color with background on hover */
+    color: #ffffff; /* Keep text color white */
+  }
+  
+  .project-link:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.3); /* Add focus outline for accessibility */
+  }
+  

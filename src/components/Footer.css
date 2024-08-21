@@ -1,0 +1,38 @@
+.footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-top: 5px solid #007bff;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-link:hover {
+    color: #007bff;
+  }
+  
+  .contact-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+  
+  .footer p {
+    margin-top: 10px;
+    font-size: 1em;
+  }
+  
